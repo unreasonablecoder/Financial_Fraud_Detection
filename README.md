@@ -52,4 +52,9 @@ The Random Forest model was trained with balanced class weights to handle the 0.
 ### Conclusion:
 The model is highly reliable for production, prioritizing customer experience (low false positives) while maintaining a strong defense against fraudulent activity.
 
+![Training Report](training_report.png)
+
+
+
+
 This Project is now Completed, lets wait for another training Models and Data.
