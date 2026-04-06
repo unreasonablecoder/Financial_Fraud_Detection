@@ -9,3 +9,6 @@ venv/
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Ignore Selected Files
+readme_snippet.png
