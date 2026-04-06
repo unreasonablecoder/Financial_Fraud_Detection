@@ -49,10 +49,13 @@ The Random Forest model was trained with balanced class weights to handle the 0.
 - **Detection Precision:** 96%
 - **False Positives:** Only 3 out of 56,864 legit transactions.
 
+![Training Report](training_report.PNG)
+
+
 ### Conclusion:
 The model is highly reliable for production, prioritizing customer experience (low false positives) while maintaining a strong defense against fraudulent activity.
 
-![Training Report](training_report.PNG)
+
 
 
 
