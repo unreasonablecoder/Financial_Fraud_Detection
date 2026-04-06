@@ -11,10 +11,21 @@ An end-to-end data pipeline to detect fraudulent credit card transactions using 
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - **Tools:** Jupyter Notebook, PowerBI
 
-## Phase 1: Data Analysis
 
-The Raw data is 
 
+## Phase 1: Exploratory Data Analysis (EDA) & Data Preprocessing
+The goal of this phase was to understand the underlying patterns of fraudulent transactions and prepare the raw dataset for machine learning.
+
+### Technical Tasks:
+- **Data Auditing:** Used `Pandas` to identify class imbalances and verify data integrity.
+- **Statistical Profiling:** Leveraged `NumPy` to calculate central tendencies and identify outliers in transaction amounts.
+- **Visual Analytics:** Created distribution plots and heatmaps using `Matplotlib` and `Seaborn` to identify features with high correlation to fraud (e.g., V17, V14, V12).
+- **Feature Scaling:** Implemented `StandardScaler` to normalize the `Amount` and `Time` features, ensuring they are on the same scale as the PCA-transformed variables (V1-V28).
+
+### Key Findings:
+1. **Extreme Imbalance:** Fraudulent transactions represent only **0.17%** of the dataset, requiring a specialized approach for model training (Phase 3).
+2. **Amount Patterns:** Most fraudulent transactions are low-value, likely to bypass traditional bank "large-purchase" alerts.
+3. **Correlation:** Certain latent features (V-components) show a significantly stronger correlation with fraud than the actual dollar amount.
 
 
 
@@ -27,3 +38,7 @@ I developed a comprehensive dashboard to visualize transaction patterns and iden
 - **Interactive Slicers:** Implemented sliders to filter by "Transaction Amount" and "Time" to investigate specific risk windows.
 
 ![Fraud Detection Dashboard](dashboard_screenshot.PNG)
+
+
+
+## Phase 3: 
