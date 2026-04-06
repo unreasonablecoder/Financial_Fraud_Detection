@@ -1,6 +1,7 @@
 # Ignore the data files
 *.csv
 *.zip
+*.pbix
 
 # Ignore virtual environment
 venv/

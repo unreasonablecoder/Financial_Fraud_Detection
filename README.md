@@ -14,3 +14,16 @@ An end-to-end data pipeline to detect fraudulent credit card transactions using 
 ## Phase 1: Data Analysis
 
 The Raw data is 
+
+
+
+
+## Phase 2: Interactive PowerBI Dashboard
+I developed a comprehensive dashboard to visualize transaction patterns and identify anomalies.
+
+### Key Insights:
+- **Fraud Frequency:** Confirmed that fraud accounts for only 0.17% of total transactions, highlighting a severe class imbalance.
+- **Transaction Size:** Most fraudulent transactions occur in smaller amounts to avoid triggering basic bank alerts.
+- **Interactive Slicers:** Implemented sliders to filter by "Transaction Amount" and "Time" to investigate specific risk windows.
+
+![Fraud Detection Dashboard](dashboard_screenshot.png)
