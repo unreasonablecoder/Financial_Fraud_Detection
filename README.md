@@ -41,4 +41,15 @@ I developed a comprehensive dashboard to visualize transaction patterns and iden
 
 
 
-## Phase 3: 
+## Phase 3: AI Model Results
+The Random Forest model was trained with balanced class weights to handle the 0.17% fraud imbalance.
+
+### Performance Metrics:
+- **Fraud Detection Rate (Recall):** 76%
+- **Detection Precision:** 96%
+- **False Positives:** Only 3 out of 56,864 legit transactions.
+
+### Conclusion:
+The model is highly reliable for production, prioritizing customer experience (low false positives) while maintaining a strong defense against fraudulent activity.
+
+This Project is now Completed, lets wait for another training Models and Data.
