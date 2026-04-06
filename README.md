@@ -26,4 +26,4 @@ I developed a comprehensive dashboard to visualize transaction patterns and iden
 - **Transaction Size:** Most fraudulent transactions occur in smaller amounts to avoid triggering basic bank alerts.
 - **Interactive Slicers:** Implemented sliders to filter by "Transaction Amount" and "Time" to investigate specific risk windows.
 
-![Fraud Detection Dashboard](dashboard_screenshot.png)
+![Fraud Detection Dashboard](dashboard_screenshot.PNG)
