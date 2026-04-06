@@ -9,7 +9,7 @@ An end-to-end data pipeline to detect fraudulent credit card transactions using 
 ## Tech Stack
 - **Languages:** Python
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- **Tools:** Jupyter Notebook, PowerBI
+- **Tools:** Jupyter Notebook, PowerBI, VS Code
 
 
 
